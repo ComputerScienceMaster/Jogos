@@ -30,11 +30,11 @@ function MontarTabuleiro($y){
 				echo '<td style="background-color:#fff">';
 			}
 
-			if ($y[$i][$j] == '0'){
+			if ($y[$i][$j] == '0' || $y[$i][$j] == 'D'){
 				echo "<img width='40' src='resources/images/black.png' >";
 
 			}
-			else if ($y[$i][$j] == 'X'){
+			else if ($y[$i][$j] == 'X' || $y[$i][$j] == 'C'){
 				echo "<img width='40' src='resources/images/white.png'>";
 			}
 			else{
@@ -148,13 +148,69 @@ function validaMovimento($y, $origemLinha, $origemColuna, $destinoLinha, $destin
 		return true;
 
 	}
+	echo($y[$origemLinha][$origemColuna]);
+	if($y[$origemLinha][$origemColuna] == 'D' || $y[$origemLinha][$origemColuna] == 'C'){
+		if (abs($origemLinha - $destinoLinha) - abs($origemColuna - $destinoColuna) == 0){ 
+			if($_SESSION['turn'] == 'X'){
+				if($y[$origemLinha][$origemColuna] == 'C'){
+					return true;
+				}
+			}
+			else if($_SESSION['turn'] == '0'){
+				if($y[$origemLinha][$origemColuna] == 'D'){
+					return true;
+				}
+			}
+		}
+	}
 	else
 	{
 		return false;
 	}
 
 
+
 }
+
+function movimentarComBot($y){
+
+	for ($j = 0; $j < 8; $j++ ){
+		for ($i = 0; $i < 8; $i++){
+			if ($y[$j][$i] == '0'){
+				if ($i + 2 < 7){	
+					if($y[$j + 1][$i + 1] == 'X' && $y[$j + 2][$i +2] == '-'){
+						return fazerMovimento($y, $j, $i, $j+2, $i+2);
+					}
+				}
+				else if($i - 2>0){
+					if($y[$j + 1][$i - 1] == 'X' && $y[$j + 2][$i -2] == '-'){
+						return fazerMovimento($y, $j, $i, $j+2, $i-2);
+
+					}
+				}
+			}
+		}
+	}
+	for ($j = 0; $j < 8; $j++ ){
+		for ($i = 0; $i < 8; $i++){
+			if ($y[$j][$i] == '0'){
+				if ($i + 1 < 7 && $i - 1 > 0){					
+					if($y[$j + 1][$i + 1] == '-'){
+						return fazerMovimento($y, $j, $i, $j+1, $i+1);
+					}
+					else if($y[$j + 1][$i - 1] == '-'){
+						return fazerMovimento($y, $j, $i, $j+1, $i-1);
+
+					}
+
+				}
+			}
+		}
+	}
+
+}
+
+
 
 
 ?>

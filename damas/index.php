@@ -30,26 +30,12 @@ session_start();
 		</div>
 		<div class="col-md-8">
 
-			<div class="alert alert-info"> 
-		<?php
-			if ($_SESSION['turn'] == 'X') {
-				echo "Turn: White";
-			}else{
-				echo "Turn: Black";}
 
-
-				?>
 				
-			</div>
+			
 			<?php
 
-			
-
-
-
-
-
-			$x1 = ['-','0','-','0','-','0','-','0'];
+			$x1 = ['-','X','-','0','-','0','-','0'];
 			$x2 = ['0','-','0','-','0','-','0','-'];
 			$x3 = ['-','0','-','0','-','0','-','0'];
 			$x4 = ['-','-','-','-','-','-','-','-'];
@@ -76,6 +62,7 @@ session_start();
 				$destinoColuna = $_POST['destinoColuna'];
 
 				$y = $_SESSION["tabuleiro"];
+
 				$isValid = validaMovimento($y, $origemLinha, $origemColuna, $destinoLinha, $destinoColuna);
 				if($isValid){
 					if($_SESSION['turn'] == 'X')
@@ -88,8 +75,33 @@ session_start();
 						$_SESSION['turn'] = 'X';
 					}
 					$_SESSION["tabuleiro"] = fazerMovimento($y, $origemLinha, $origemColuna, $destinoLinha, $destinoColuna);
-				}else{
+
+					$y = $_SESSION["tabuleiro"];
+
+					$_SESSION["tabuleiro"] = movimentarComBot($y);
+
+					$_SESSION["turn"] = 'X';
+					if ($_SESSION['turn'] == 'X') {
+					echo "<div class='alert alert-info'> Turn: White </div>";
+					}
+					else{
+					echo "<div class='alert alert-info'> Turn: Black</div>";
+					}
+
+				}
+				else{
 					echo '<div class="alert alert-danger">Esse movimento não é válido</div>';
+				}
+
+				for($j = 0; $j < 8; $j++){
+					if ($y[0][$j] == 'X'){
+						$_SESSION['tabuleiro'][0][$j] = 'C';
+					}
+				}
+				for($j = 0; $j < 8; $j++){
+					if ($y[7][$j] == '0'){
+						$_SESSION['tabuleiro'][0][$j] = 'D';
+					}
 				}
 
 
