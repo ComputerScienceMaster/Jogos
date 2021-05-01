@@ -1,0 +1,46 @@
+.title{
+	background-color: #333652; 
+	text-align: center;
+	color: #efefef;
+	font-size: 5em;
+	font-family: arial;
+	font-weight: bold;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+
+
+}
+
+body{
+	background-color: #efefef;
+}
+
+.footer{
+	text-align: center;
+	font-size: 13px;
+	background-color:#333;
+	color:#efefef;
+	margin-top: 1vh;
+	padding-top: 1em;	
+	padding-bottom: 1em;
+}
+
+#id{
+	height: 80vh;
+}
+
+.game-table-format{
+	margin-left: 30% ;
+	border: solid 3px #000;
+	width: 40%;
+	height: 400px;
+}
+
+.game-table-format td{
+	width: 40px;
+	height: 100px;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	color: 
+}
