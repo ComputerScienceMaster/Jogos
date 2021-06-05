@@ -45,5 +45,5 @@ if(isset($_GET['start']) && $_GET['start'] == 1){
 
 </body>
 
-<footer class="footer" >Desenvolvido por ComputerScienceMaster - Creative Commons Attribution-ShareAlike 4.0 International License</footer>
+<footer class="footer" >Desenvolvido por ComputerScienceMaster - MIT License</footer>
 </html>
