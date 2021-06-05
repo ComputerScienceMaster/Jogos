@@ -32,4 +32,30 @@ function getTable(){
 	}
 }
 
+
+
+function addNumero(){
+
+	$y = $_SESSION['game']; 
+	$vazios = [];
+
+	for($i=0; $i<4; $i++){
+		for($j = 0; $j<4; $j++){
+			if ($y[$i][$j] == "-"){
+				$coords =[$i, $j];
+				array_push($vazios, $coords);
+			}
+		}
+	}
+
+	$tamanho = count($vazios);
+	$add = $vazios[random_int(0, $tamanho - 1)];
+	$y[$add[0]][$add[1]] = "2";
+
+	$_SESSION['game'] = $y;
+	var_dump($_SESSION['game']) ;
+
+}
+
+
 ?>

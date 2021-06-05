@@ -24,6 +24,10 @@ if(isset($_GET['start']) && $_GET['start'] == 1){
 
 	<div id="game">
 
+		<?php if(isset($_SESSION['messages'])){?>
+
+		<div id="messages" class="alert alert-info"></div>
+		<?php }?>
 		<div id="buttonStart" class="row">
 			<div class="col-md-12" style="text-align: center; margin-bottom: 20px">
 
