@@ -7,9 +7,9 @@ Nesse repositório você encontra uma implementação do jogo 2048 que ficou mui
 Para implementar essa versão do nosso jogo utilizamos tecnologias livres que são listadas abaixo:
 
 - PHP 7.3 → acesse em: https://www.php.net/
-PHP is a open-source programming language and it is under PHP license 3.01. Learn more in: https://www.php.net/license/3_01.txt
+PHP é uma linguagem de progração open-source que está sobre a licença do PHP 3.01. Saiba mais sobre essa licença em: https://www.php.net/license/3_01.txt
 - Bootstrap → https://getbootstrap.com/
-Bootstrap is a front-end framework of Twitter, Inc. Code licensed under Apache License v2.0. Learn more in: https://www.apache.org/licenses/LICENSE-2.0
+Bootstrap é um framework front-end disponibilizado pelo twitter e está sob a licença Apache v2.0. Saiba mais sobre essa licença em: https://www.apache.org/licenses/LICENSE-2.0
 
 # Quer contribuir?
 
