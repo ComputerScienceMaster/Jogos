@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+.title{
+	font-family: Teko;
+	font-size: 35px;
+}
+
+.header{
+	width: 800px;
+	text-align: center;
+}
+
+.background{
+	background-color: #E9EAEC;
+}
+
+.container{
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.footer{
+	position: absolute;
+	top: 90%;
+	width: 780px;
+	background-color: #54595F;
+	color: #ccc;
+	text-align: center;
+	font-size: 15px;
+	font-family: helvetica;
+	padding: 20px;
+}
+
+.footer a{
+	color: #eee;
+}
+
+.game{
+	position: absolute;
+	width: 800px;
+	height: 450px;
+	border: solid 10px #333;
+	background-image: url("../Images/background.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+#barco{
+	position: absolute;
+	width:200px;
+	left:200px;
+	top: 200px;
+
+	 -webkit-transition: all 0.7s ease-out;
+       -moz-transition: all 0.7s ease-out;
+        -ms-transition: all 0.7s ease-out;
+         -o-transition: all 0.7s ease-out;
+            transition: all 0.7s ease-out;
+}
+
+#carrot{
+	position: absolute;
+	width:90px;
+	left:140px;
+	top: 150px;
+	 -webkit-transition: all 0.7s ease-out;
+       -moz-transition: all 0.7s ease-out;
+        -ms-transition: all 0.7s ease-out;
+         -o-transition: all 0.7s ease-out;
+            transition: all 0.7s ease-out;
+}
+#hunter{
+	position: absolute;
+	width:100px;
+	left:10px;
+	top: 150px;
+	 -webkit-transition: all 0.7s ease-out;
+       -moz-transition: all 0.7s ease-out;
+        -ms-transition: all 0.7s ease-out;
+         -o-transition: all 0.7s ease-out;
+            transition: all 0.7s ease-out;
+}
+#rabbit{
+	position: absolute;
+	width:50px;
+	left:20px;
+	top: 300px;
+	 -webkit-transition: all 0.7s ease-out;
+       -moz-transition: all 0.7s ease-out;
+        -ms-transition: all 0.7s ease-out;
+         -o-transition: all 0.7s ease-out;
+            transition: all 0.7s ease-out;
+
+
+}
+#wolf{
+	position: absolute;
+	width:100px;
+	left:50px;
+	top: 350px;
+	 -webkit-transition: all 0.7s ease-out;
+       -moz-transition: all 0.7s ease-out;
+        -ms-transition: all 0.7s ease-out;
+         -o-transition: all 0.7s ease-out;
+            transition: all 0.7s ease-out;
+}
+
+.movimentaEsquerda{
+	left: 400px;
+}
