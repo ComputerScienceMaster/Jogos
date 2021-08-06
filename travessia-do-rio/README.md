@@ -1,4 +1,4 @@
-# River cross em javascript
+# Travessia do rio (river cross) em javascript
 
 Nesse repositório você encontra uma implementação do river-cross (não sei se esse realmente é o nome oficial). Nesse jogo o objetivo é você atravessar todos os personagens para outra margem do rio (direita para esquerda). 
 
