@@ -127,7 +127,7 @@ echo '</pre>';
     }
 
     if ($ganhou == true) {
-        echo "<h1>GAME OVER</h1>";
+        echo "<h2>GAME OVER</h2>";
     }
 
 
