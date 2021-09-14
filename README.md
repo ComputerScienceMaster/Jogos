@@ -1,14 +1,19 @@
-# CSM Jogos
+# Repositório de jogos
 
 Os jogos são excelentes incentivos para crianças e adolescentes que querem desenvolver suas habilidades em lógica de programação. Pensando nisso nosso site lançou uma nova seção
 onde vamos postar vários exemplos de jogos que foram codificados em linguagens feitas para web ou então compiladas por ambientes de desenvolvimento para web.
+
+Acesse o índice de todos os jogos criados aqui:
+
+https://www.computersciencemaster.com.br/exemplos-de-jogos/
 
 # Objetivo
 
 Esse projeto tem como objetivo principal incentivar os amantes de jogos a programar seus próprios games e fornecer exemplos reais de jogos criados. O código fonte
 será criado e compartilhado com a nossa comunidade permitindo que você contribua e se desenvolva.
 
+# Licença
 
-Acesse o índice de todos os jogos criados aqui:
+Todo nosso código está distribuido sob a licença Apache 2.0. Isso significa que você pode usar, adaptar, remixar, porém é necessário que você faça uma atribuição ao trabalho original. 
 
-https://www.computersciencemaster.com.br/exemplos-de-jogos/
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
