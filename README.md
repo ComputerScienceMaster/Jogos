@@ -18,4 +18,4 @@ Grande parte do nosso código está distribuido sob a licença Apache 2.0. Isso 
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-**Em alguns casos específicos, os jogos precisam de licenças que sejam compatíveis com a licença original de algum recurso usado no software. Portanto, nós disponibilizamos na pasta de cada jogo uma licença sob o qual o software está disponibilizado.**
+_ATENÇÃO: Em alguns casos específicos, os jogos precisam de licenças que sejam compatíveis com a licença original de algum recurso usado no software. Portanto, nós disponibilizamos na pasta de cada jogo uma licença sob o qual o software está disponibilizado._
