@@ -14,6 +14,8 @@ será criado e compartilhado com a nossa comunidade permitindo que você contrib
 
 # Licença
 
-Todo nosso código está distribuido sob a licença Apache 2.0. Isso significa que você pode usar, adaptar, remixar, porém é necessário que você faça uma atribuição ao trabalho original. 
+Grande parte do nosso código está distribuido sob a licença Apache 2.0. Isso significa que você pode usar, adaptar, remixar, porém é necessário que você faça uma atribuição ao trabalho original. 
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+**Em alguns casos específicos, os jogos precisam de licenças que sejam compatíveis com a licença original de algum recurso usado no software. Portanto, nós disponibilizamos na pasta de cada jogo uma licença sob o qual o software está disponibilizado.**
