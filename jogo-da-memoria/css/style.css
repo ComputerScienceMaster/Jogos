@@ -1,0 +1,41 @@
+table {
+  border-collapse: collapse;
+}
+
+.table img {
+  width: 160px;
+}
+
+.tabuleiro-container{
+    width: 100%;
+    margin-left: 33%;
+}
+
+table td,
+table th {
+  border: 1px solid black;
+}
+
+table tr:first-child th {
+  border-top: 0;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+table tr td:first-child,
+table tr th:first-child {
+  border-left: 0;
+}
+
+table tr td:last-child,
+table tr th:last-child {
+  border-right: 0;
+}
+
+.game-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
