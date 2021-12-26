@@ -2,7 +2,7 @@
 
 Nesse repositório você encontra uma implementação do jogo "pong". Esse jogo é uma implementação simplificada e didática para aprender programação. Nosso objetivo aqui é provar para você que qualquer linguagem pode ser utilizada para criar games (por mais simples que eles sejam), além disso, com essa implementação você reutilizá-las para dar vários passos em outras direções.
 
-# o que nós usamos?
+# O que nós usamos?
 
 Para implementar essa versão do nosso jogo utilizamos tecnologias livres que são listadas abaixo:
 
