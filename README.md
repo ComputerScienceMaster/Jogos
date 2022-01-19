@@ -5,7 +5,7 @@ onde vamos postar vários exemplos de jogos que foram codificados em linguagens 
 
 - Acesse o índice de todos os jogos criados [aqui](https://www.computersciencemaster.com.br/exemplos-de-jogos/)
 
-# Tecnologias usadas
+# 💻 Tecnologias usadas
 
 Aqui não temos preconceito de tecnologia, portanto, qualquer linguagem, framework, biblioteca é aceita sem problema algum. Atualmente estamos explorando as seguintes linguagens nos exemplos:
 - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
