@@ -1,4 +1,4 @@
-# Pong em Javascript
+# 🎮 Jogo da cobrinha
 
 Nesse repositório você encontra uma implementação do jogo "pong". Esse jogo é uma implementação simplificada e didática para aprender programação. Nosso objetivo aqui é provar para você que qualquer linguagem pode ser utilizada para criar games (por mais simples que eles sejam), além disso, com essa implementação você reutilizá-las para dar vários passos em outras direções.
 
@@ -6,10 +6,10 @@ Nesse repositório você encontra uma implementação do jogo "pong". Esse jogo 
 
 Para implementar essa versão do nosso jogo utilizamos tecnologias livres que são listadas abaixo:
 
-- HTML, CSS e javascript → amplamente difundida no mundo da programação e livre para qualquer pessoa usar!
-
-- P5js → https://p5js.org/
-Um framework para controle da interface usando javascript.
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+- ![p5js](https://img.shields.io/badge/p5.js-ED225D?style=for-the-badge&logo=p5.js&logoColor=FFFFFF)
 
 # Quer contribuir?
 
