@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Linguagens Programação</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="game-screen animated shake">
+            <header>
+                <h1>Linguagens de Programação</h1>
+                <span class="reset"></span>
+            </header>
+
+            <section>
+                <ul id="cards-container">
+                    <li class="card closed"></li>
+                    <li class="card closed"></li>
+                    <li class="card closed"></li>
+                    <li class="card closed"></li>
+                    <li class="card closed"></li>
+                    <li class="card closed"></li>
+                    <li class="card closed"></li>
+                    <li class="card closed"></li>
+                    <li class="card closed"></li>
+                    <li class="card closed"></li>
+                    <li class="card closed"></li>
+                    <li class="card closed"></li>
+                    <li class="card closed"></li>
+                    <li class="card closed"></li>
+                    <li class="card closed"></li>
+                    <li class="card closed"></li>
+                </ul>
+            </section>
+
+            <section class="monitor">
+                <div>
+                    <span class="move"></span>
+                    <h3 class="move-counter">0</h3>
+                </div>
+                <div>
+                    <ul id="heart-container">
+                        <li class="heart"></li>
+                        <li class="heart"></li>
+                        <li class="heart"></li>
+                    </ul>
+                </div>
+                <div>
+                    <span class="timer"></span>
+                    <h3 class="time-counter">0 : 00</h3>
+                </div>
+            </section>
+        </section>
+
+        <section class="winner-screen disappear">
+            <section class="winner-first-block">
+                <span class="winner-icon animated flash"></span>
+                <div class="winner-text">
+                    <h1>Parabéns!</h1>
+                    <h1>voce é vencedor</h1>
+                    <p>Com <span class="winner-movements">0</span> movimentos, <span class="winner-hearts">0</span> vidas,
+                         <span class="winner-time">0:00</span></p>
+                </div>
+            </section>
+            <section class="play-again">
+                <button>Play</button>
+            </section>
+        </section>
+
+    </div>
+    <audio id="match" src="audios/match.ogg"></audio>
+    <audio id="not-match" src="audios/not-match.ogg"></audio>
+    <audio id="winner" src="audios/winner.ogg"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>

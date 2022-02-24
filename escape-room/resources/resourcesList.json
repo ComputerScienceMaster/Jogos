@@ -1,0 +1,38 @@
+{
+  "versao": 1,
+  "recursos": [
+    {
+      "name": "Chave",
+      "description": "Chavinha",
+      "initialPosition": [1030, 160],
+      "imgSrc": "key.png",
+      "imgWidth": 100,
+      "imgHeight": 100
+    },
+    {
+      "name": "Cofre",
+      "description": "Lugar onde colocamos dinheiro",
+      "initialPosition": [800, 100],
+      "imgSrc": "safebox.svg",
+      "imgWidth": 180,
+      "imgHeight": 180
+    },
+    {
+      "name": "Frame",
+      "description": "Quadro",
+      "initialPosition": [120, 50],
+      "imgSrc": "frame.png",
+      "imgWidth": 350,
+      "imgHeight": 250
+    },
+    
+    {
+      "name": "Cama",
+      "description": "Lugar onde se dorme",
+      "initialPosition": [300, 300],
+      "imgSrc": "bed.png",
+      "imgWidth": 650,
+      "imgHeight": 350
+    }
+  ]
+}
