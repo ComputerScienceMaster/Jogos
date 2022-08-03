@@ -122,20 +122,20 @@ class Player {
   }
 
   move() {
-    if (keyIsDown(LEFT_ARROW) && this.posX >= 5) {
+    if (keyIsDown(65) && this.posX >= 5) {
       this.posX -= 5;
     }
 
-    if (keyIsDown(RIGHT_ARROW) && this.posX <= width - player.size) {
+    if (keyIsDown(68) && this.posX <= width - player.size) {
       console.log(this.posX);
       this.posX += 5;
     }
 
-    if (keyIsDown(UP_ARROW) && this.posY >= 5 + player.size) {
+    if (keyIsDown(87) && this.posY >= 5 + player.size) {
       this.posY -= 5;
     }
 
-    if (keyIsDown(DOWN_ARROW) && this.posY <= height - player.size) {
+    if (keyIsDown(83) && this.posY <= height - player.size) {
       this.posY += 5;
     }
   }
