@@ -20,7 +20,6 @@ Frameworkds e bibliotecas usadas:
 
 - ![p5js](https://img.shields.io/badge/p5.js-ED225D?style=for-the-badge&logo=p5.js&logoColor=FFFFFF)
 
-
 # 🎯 Objetivo
 
 Esse projeto tem como objetivo principal incentivar os amantes de jogos a programar seus próprios games e fornecer exemplos reais de jogos criados. O código fonte será criado e compartilhado com a nossa comunidade permitindo que você contribua e se desenvolva.
