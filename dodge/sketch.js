@@ -39,16 +39,11 @@ function draw() {
   }
   
 
-  if (statusJogo == false){
-   background(210)
-   textSize(32)
-   text("Clique para começar...",100,250);
-   
- }
- 
- personagem();
 
- if (statusJogo == true) {
+  
+  personagem();
+
+  if (statusJogo == true) {
     //inicio do vilao
     for (let i = 0; i < 3; i++) {
       xV[i] = xV[i] + vel[i];
@@ -76,7 +71,13 @@ function draw() {
   if (statusJogo == true){
     xS++;
   }
+
   
+  if (statusJogo == false){
+   background(210)
+   textSize(32)
+   text("Clique para começar....",100,250);
+ }
   // verifica colisão (morte do personagem)
   
   for(let i = 0; i< 3 ; i++){
