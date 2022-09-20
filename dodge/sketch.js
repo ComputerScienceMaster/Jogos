@@ -24,6 +24,7 @@ function setup() {
 
 function draw() {
   background(220);
+  
   if (keyIsDown(87)) {
     y = y - 5;
   }
