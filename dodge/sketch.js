@@ -24,22 +24,30 @@ function setup() {
 
 function draw() {
   background(220);
-  if (keyIsDown(UP_ARROW)) {
+  if (keyIsDown(87)) {
     y = y - 5;
   }
-  if (keyIsDown(DOWN_ARROW)) {
+  if (keyIsDown(83)) {
     y = y + 5;
   }
-  if (keyIsDown(RIGHT_ARROW)) {
+  if (keyIsDown(68)) {
     x = x + 5;
   }
-  if (keyIsDown(LEFT_ARROW)) {
+  if (keyIsDown(65)) {
     x = x - 5;
   }
   
-  personagem();
 
-  if (statusJogo == true) {
+  if (statusJogo == false){
+   background(210)
+   textSize(32)
+   text("Clique para começar...",100,250);
+   
+ }
+ 
+ personagem();
+
+ if (statusJogo == true) {
     //inicio do vilao
     for (let i = 0; i < 3; i++) {
       xV[i] = xV[i] + vel[i];
@@ -56,14 +64,14 @@ function draw() {
     if (xV[i] >= 500) {
       yV[i] = random(0, 500);
       xV[i] = -150;
-  
+      
     }
   }
   
   textSize(32)
   text(xS, 40,40);
   square(xS, yS, 10, 10);
- 
+  
   if (statusJogo == true){
     xS++;
   }
