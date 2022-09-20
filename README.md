@@ -23,8 +23,7 @@ Frameworkds e bibliotecas usadas:
 
 # 🎯 Objetivo
 
-Esse projeto tem como objetivo principal incentivar os amantes de jogos a programar seus próprios games e fornecer exemplos reais de jogos criados. O código fonte
-será criado e compartilhado com a nossa comunidade permitindo que você contribua e se desenvolva.
+Esse projeto tem como objetivo principal incentivar os amantes de jogos a programar seus próprios games e fornecer exemplos reais de jogos criados. O código fonte será criado e compartilhado com a nossa comunidade permitindo que você contribua e se desenvolva.
 
 # 📄 Licença
 
